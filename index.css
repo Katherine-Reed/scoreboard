@@ -1,26 +1,29 @@
 body {
-    background-color: #064E3B;
+    background-color: #2d0c04;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
 }
 
 .container {
+    background-color: #064E3B;
     color: white;
+    column-gap: 0;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     margin: auto;
-    padding: 1rem;
+    max-height: 768px;
+    max-width: 1024px;
+    row-gap: 0;
     text-align: center;
 }
-
 .card {
     color: white;
     font-size: 1.875rem;
-    height: 16rem;
     margin: auto;
-    padding: 1.25rem;
+    padding-bottom: 1.25rem;
     text-align: center;
+    width: auto;
 }
 
 #p2 {
@@ -42,6 +45,7 @@ body {
 }
 
 .title {
+    font-size: medium;
     margin-bottom: .5rem;
     padding: 0;
 }
