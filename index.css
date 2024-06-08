@@ -1,0 +1,94 @@
+body {
+    background-color: #064E3B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card {
+    color: white;
+    font-size: 1.875rem;
+    height: 16rem;
+    margin: auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+#p2 {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#p3 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#p4 {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.title {
+    margin-bottom: .5rem;
+    padding: 0;
+}
+
+.score {
+    align-content: center;
+    background-color: black;
+    color: red;
+    font-size: 90px;
+    font-style: normal;
+    height: 7.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 9.6875rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-group > button {
+    background: none;
+    border: 0.0625rem dashed white;
+    border-radius: 0.125rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 2.8125rem;
+    width: 2.8125rem;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+
+}
+
+#reset-btn {
+    background: none;
+    border: .125rem double whitesmoke;
+    color: whitesmoke;
+    display: block;
+    font-size: 1.5rem;
+    height: auto;
+    margin: .5rem auto;
+    padding: 0.125rem;
+    width: auto;
+}
