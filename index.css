@@ -7,60 +7,36 @@ body {
 .container {
     background-color: #064E3B;
     color: white;
-    column-gap: 0;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    max-height: 768px;
-    max-width: 1024px;
-    row-gap: 0;
+    height: 760px;
+    max-width: 480px;
     text-align: center;
 }
 .card {
     color: white;
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     margin: auto;
     padding-bottom: 1.25rem;
     text-align: center;
     width: auto;
 }
 
-#p2 {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-#p3 {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-#p4 {
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
 .title {
-    font-size: medium;
+    font-size: larger;
     margin-bottom: .5rem;
     padding: 0;
 }
 
 .score {
-    align-content: center;
     background-color: black;
     color: red;
-    font-size: 90px;
-    font-style: normal;
-    height: 7.5rem;
+    font-size: 128px;
+    height: 11rem;
     margin: 0;
     margin-bottom: 1rem;
-    text-align: center;
-    width: 9.6875rem;
+    width: 15rem;
 }
 
 .btn-group {
@@ -71,18 +47,17 @@ body {
 
 .btn-group > button {
     background: none;
-    border: 0.0625rem dashed white;
-    border-radius: 0.125rem;
+    border: 1px dashed white;
+    border-radius: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    height: 2.8125rem;
-    width: 2.8125rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 #reset {
     display: block;
     margin: auto;
-
 }
 
 #reset-btn {
@@ -93,6 +68,6 @@ body {
     font-size: 1.5rem;
     height: auto;
     margin: .5rem auto;
-    padding: 0.125rem;
+    padding: .125rem .5rem;
     width: auto;
 }
